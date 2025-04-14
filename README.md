@@ -3,18 +3,28 @@
 This project demonstrates the deployment of AWS infrastructure using Terraform, with automation integrated via GitHub Actions. The infrastructure includes an EC2 instance, S3 static website bucket, a Lambda function triggered by S3 events, and necessary IAM roles and permissions.
 
 ## Project Structure
-
 . ├── main.tf - 
 Core Terraform configuration
+
 ├── variables.tf - Input variable definitions
+
 ├── outputs.tf - Outputs such as instance IP, bucket URL 
-├── scripts/ 
-│ └── setup.sh - EC2 bootstrapping script (user data) 
-├── lambda/ │ 
-└── lambda.zip - Zipped AWS Lambda Python code 
+
+├── scripts/
+
+│ 
+└── setup.sh - EC2 bootstrapping script (user data) 
+
+├── lambda/ 
+│ 
+└── lambda.zip - Zipped AWS Lambda Python code
+
 └── .github/ 
+
 └── workflows/ 
+
 └── terraform.yml - GitHub Actions workflow
+
 
 ## Tools and Technologies
 
