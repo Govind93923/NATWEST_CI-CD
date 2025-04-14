@@ -16,10 +16,6 @@ Core Terraform configuration
 └── workflows/ 
 └── terraform.yml - GitHub Actions workflow
 
-markdown
-Copy
-Edit
-
 ## Tools and Technologies
 
 | Tool/Service       | Purpose                                      |
