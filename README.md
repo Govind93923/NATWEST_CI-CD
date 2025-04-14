@@ -4,7 +4,17 @@ This project demonstrates the deployment of AWS infrastructure using Terraform, 
 
 ## Project Structure
 
-. ├── main.tf - Core Terraform configuration ├── variables.tf - Input variable definitions ├── outputs.tf - Outputs such as instance IP, bucket URL ├── scripts/ │ └── setup.sh - EC2 bootstrapping script (user data) ├── lambda/ │ └── lambda.zip - Zipped AWS Lambda Python code └── .github/ └── workflows/ └── terraform.yml - GitHub Actions workflow
+. ├── main.tf - 
+Core Terraform configuration
+├── variables.tf - Input variable definitions
+├── outputs.tf - Outputs such as instance IP, bucket URL 
+├── scripts/ 
+│ └── setup.sh - EC2 bootstrapping script (user data) 
+├── lambda/ │ 
+└── lambda.zip - Zipped AWS Lambda Python code 
+└── .github/ 
+└── workflows/ 
+└── terraform.yml - GitHub Actions workflow
 
 markdown
 Copy
